@@ -95,7 +95,7 @@ module.exports = {
       if (!launchIds.length) return []
       // look up those launches by their ids
       return (
-        dataSources.launchAPI.getLaunchesByIds({
+        dataSources.launchAPI.getByLaunchIds({
           launchIds,
         }) || []
       )

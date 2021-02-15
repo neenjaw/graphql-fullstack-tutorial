@@ -8,15 +8,15 @@
 // ====================================================
 
 export interface Login_login {
-  __typename: "User";
-  id: string;
-  token: string | null;
+  __typename: 'User'
+  id: string
+  token: string | null
 }
 
 export interface Login {
-  login: Login_login | null;
+  login: Login_login | null
 }
 
 export interface LoginVariables {
-  email: string;
+  email: string
 }
